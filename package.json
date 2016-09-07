@@ -1,0 +1,28 @@
+{
+  "name": "eslint-config-locoslab",
+  "version": "0.1.0",
+  "description": "ESLint configuration for Locoslab projects",
+  "author": "Locoslab GmbH",
+  "homepage": "https://github.com/locoslab/eslint-config-locoslab",
+  "bugs": "https://github.com/locoslab/eslint-config-locoslab/issues",
+  "repository": "locoslab/eslint-config-locoslab",
+  "private": true,
+  "license": "MIT",
+  "main": "./index.js",
+  "files": [
+    "index.js"
+  ],
+  "keywords": [
+    "eslint",
+    "eslintconfig"
+  ],
+  "scripts": {
+    "test": "eslint test"
+  },
+  "peerDependencies": {
+    "eslint": "^3.4.0"
+  },
+  "devDependencies": {
+    "eslint": "^3.4.0"
+  }
+}
