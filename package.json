@@ -6,7 +6,6 @@
   "homepage": "https://github.com/locoslab/eslint-config-locoslab",
   "bugs": "https://github.com/locoslab/eslint-config-locoslab/issues",
   "repository": "locoslab/eslint-config-locoslab",
-  "private": true,
   "license": "MIT",
   "main": "./index.js",
   "files": [
@@ -17,7 +16,8 @@
     "eslintconfig"
   ],
   "scripts": {
-    "test": "eslint test"
+    "test": "eslint test",
+    "prepublish": "eslint test"
   },
   "peerDependencies": {
     "eslint": "^3.4.0"
